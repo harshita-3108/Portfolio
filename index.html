@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body onload="myFunction()">
+  <div id="loading"></div>
+
+  <video autoplay muted loop id="myVideo">
+    <source src="01111.mp4" type="video/mp4">
+  </video>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#services" class="menu-btn">Projects</a></li>
+        <li><a href="#teams" class="menu-btn">Certificates</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">Harshita Mishra</div>
+        <div class="text-3">And I'm a <span class="typing"></span></div>
+        <a href="#contact">Hire Me</a>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- about section start -->
+
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="harshita.png" alt="An image of Harshita">
+        </div>
+        <div class="column right">
+          <div class="text">
+            I'm Harshita and I'm a <span class="typingg"></span> </div>
+          <p>I'm currently a college student pursuing B-Tech in Computer Science from St. Thomas' College of Engineering & Technology. I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a
+            person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new opportunities to develop and enhance my skills.</p>
+          <a title="Harshita's resume" href="CV.pdf" target="_blank">View CV</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- skills section start -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">
+        My skills</h2>
+      <div class="skills-content">
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>C</span>
+              <span>90%</span>
+            </div>
+            <div class="line c">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>C++</span>
+              <span>80%</span>
+            </div>
+            <div class="line cpp">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line css">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>75%</span>
+            </div>
+            <div class="line js">
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>jQuery</span>
+              <span>70%</span>
+            </div>
+            <div class="line jquery">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Python</span>
+              <span>80%</span>
+            </div>
+            <div class="line python">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Java</span>
+              <span>90%</span>
+            </div>
+            <div class="line java">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>SQL</span>
+              <span>90%</span>
+            </div>
+            <div class="line sql">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- projects section start -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">
+        My Projects</h2>
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <div class="text">
+              Web Design</div>
+            <p>
+              A personal responsive website using front-end technologies- HTML, CSS, JavaScript, jQuery.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-car"></i>
+            <div class="text">
+              Car Detection</div>
+            <p>
+              A Car detection Project using OpenCv which focus on the unsupervised way of object detection in videos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- certificate section start -->
+
+  <section class="teams" id="teams">
+    <div class="max-width">
+      <h2 class="title">
+        Certificates</h2>
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="box">
+            <img src="first.png" alt="python basic certificate">
+            <div class="text">
+              Hackerrank</div>
+            <p>
+              Python(basic)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="second.jpg" alt="crash course on python certificate">
+            <div class="text">
+              Coursera</div>
+            <p>
+              Crash Course on Python</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="third.jpg" alt="Programming for everybody certificate">
+            <div class="text">
+              Coursera</div>
+            <p>
+              Programming for everybody(Getting started with Python)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="download.png" alt="Python data structure certificate">
+            <div class="text">
+              Coursera</div>
+            <p>
+              Python Data Structure</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="download.png" alt="HTML, CSS and JavaScript for Wen Developers certificate">
+            <div class="text">
+              Coursera</div>
+            <p>
+              HTML, CSS, and Javascript for Web Developers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section start -->
+  <!-- contact section start -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">
+        Contact me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">
+            Get in Touch</div>
+          <p>
+          For any further query contact me on the below details.</p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">
+                  Name</div>
+                <div class="sub-title">
+                  Harshita Mishra</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">
+                  Address</div>
+                <div class="sub-title">
+                  kolkata , India</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">
+                  Email</div>
+                <div class="sub-title">
+                  mharshita31@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">
+            Message me</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name" required>
+              </div>
+              <div class="field email">
+                <input type="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+            </div>
+            <div class="button">
+              <button onclick="document.location='mailto:mharshita31@gmail.com'">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/harshita-mishra-370405184/" target="_blank">Harshita Mishra</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
